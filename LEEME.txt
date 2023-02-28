@@ -1,0 +1,9 @@
+Pasos instalacion
+
+1. vas a https://www.apachefriends.org/es/index.html, para descargar e instalar Xampp.
+2. Ve a la carpeta de instalación de Xampp y buscas lo siguiente: `<Carpeta de Xampp>/htdocs/` y ahí arrastras la carpeta `VoteSys`.
+3. Presiona `Start` en la opción de **MySql** en Xampp. 
+4. Presiona `Admin` en la opción de **MySql** y se abrirá el administrador de **PHPMyAdmin**.
+5. Dentro del mismo presiona en `importar` y subes el archivo `DB.sql` que se encuentra en la carpeta `DB`.
+6. Con esto listo, presiona `Start` en la opción **Apache** de Xampp.
+7. Finalmente en tu buscador ingresa el enlace **`http://localhost/votesys/`** y podrás utilizar el sistema.
